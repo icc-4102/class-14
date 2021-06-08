@@ -70,6 +70,17 @@ dependencies {
     implementation 'com.google.android.gms:play-services-location:18.0.0'
     //Koin
     implementation "io.insert-koin:koin-android:3.0.2"
+
+    //Test
+    testImplementation "org.mockito:mockito-inline:3.5.9"
+    testImplementation "io.insert-koin:koin-test-junit4:3.0.2"
+    testImplementation "io.insert-koin:koin-test-junit4:3.0.2"
+    androidTestImplementation "io.insert-koin:koin-test-junit4:3.0.2"
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    implementation 'androidx.arch.core:core-common:2.1.0'
+    implementation 'androidx.arch.core:core-runtime:2.1.0'
+    androidTestImplementation 'android.arch.core:core-testing:1.1.1'
+    testImplementation "androidx.arch.core:core-testing:2.1.0"
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'

@@ -23,7 +23,7 @@ class CovidCaseEntityMapper : EntityMapper<CovidCaseEntity, CovidCaseModel> {
             type.cases.toString(),
             type.deaths.toString(),
             type.todayCases.toString(),
-            type.todayDeaths.toString(),
+            type.todayDeaths!!.toString(),
             type.recovered.toString(),
             type.active.toString()
         )

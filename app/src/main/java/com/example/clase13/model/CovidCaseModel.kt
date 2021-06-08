@@ -11,7 +11,7 @@ data class CovidCaseModel (
     val cases: Long,
     val todayCases: Long,
     val deaths: Long,
-    val todayDeaths: Long?,
+    var todayDeaths: Long?,
     val recovered: Long,
     val active: Long,
 ): Parcelable
